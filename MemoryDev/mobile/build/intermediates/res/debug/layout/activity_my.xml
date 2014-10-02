@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NomLogo"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/logo"
+        android:autoLink="web"
+        android:layout_margin="5sp"/>
+
+    <GridLayout
+        android:id="@+id/Grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4">
+
+        <ImageView
+            android:id="@+id/imagen1"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen2"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen3"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen4"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen5"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen6"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen7"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen8"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen9"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen10"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen11"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+        <ImageView
+            android:id="@+id/imagen12"
+            android:layout_width="@dimen/tam_img"
+            android:layout_height="@dimen/tam_img"
+            android:src="@drawable/droid_logo"
+            android:contentDescription="@string/Descripcion"
+            android:layout_margin="2sp"/>
+
+
+        </GridLayout>
+
+    <TableLayout
+        android:id="@+id/Tabla1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp">
+
+        <TableRow
+            android:id="@+id/Fila1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TxtTiempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiempo"
+                android:textSize="40sp"
+                android:textColor="#fff"
+                android:paddingLeft="@dimen/left"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/BtnJugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NomJugar"
+                android:textColor="#fff"
+                android:layout_weight="1"/>
+
+            </TableRow>
+
+        <TableRow
+            android:id="@+id/Fila2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TxtContador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NomContador"
+                android:textColor="#fff"
+                android:textSize="40sp"
+                android:paddingLeft="@dimen/left"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/BtnSalir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NomSalir"
+                android:textColor="#fff"
+                android:layout_weight="1"/>
+
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Juan%20Francisco/AndroidStudioProjects/MemoryDev/mobile/src/main/res/layout/activity_my.xml -->

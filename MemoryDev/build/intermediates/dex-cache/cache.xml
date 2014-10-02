@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Juan Francisco\AndroidStudioProjects\MemoryDev\mobile\build\intermediates\pre-dexed\debug\support-v4-19.1.0-241fc343efeb28f463477b8ef92d7a1576cd2961.jar"
+        jar="C:\Users\Juan Francisco\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\Juan Francisco\AndroidStudioProjects\MemoryDev\mobile\build\intermediates\pre-dexed\debug\classes-d1cae501369f52c2bc5c16f249d7f3d181ef7541.jar"
+        jar="C:\Users\Juan Francisco\AndroidStudioProjects\MemoryDev\mobile\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\5.0.77\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="80a6f6f2d0dfcfae8c424cf81dcdf7157e7bf4b8"/>
+
+</pre-dex-items>
